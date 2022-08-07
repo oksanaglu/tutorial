@@ -52,6 +52,10 @@ img {
     background-color: #FFB8CA;
 }
 
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 .hero-title {
     font: "Titan One";

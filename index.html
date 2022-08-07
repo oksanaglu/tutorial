@@ -11,9 +11,39 @@
     <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
 </head>
 <body>
+    <!-- Секція хедер -->
+    <header class="header">
+        <div class="container header__container">
+            <a class="header__logo logo" href="./index.html">
+                <img class="logo__img" src="./images/header/logo.svg" alt="logotype IceCream" width="199" height="50" />
+            </a>
+    
+            <nav class="nav">
+                <ul class="nav__list list">
+                    <li class="nav__item">
+                        <a class="nav__link nav__link--current link" href="">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link link" href="">About us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link link" href="">How it’s made?</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link link" href="">Our products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link link" href="./contatcs.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+                <button class="header__btn btn" type="button">Buy now</button>
+        </div>
     <!-- Секція Hero -->
     <section class="hero" >
-        <div class="conteiner hero-container">
+
+        <div class="container hero-container">
+
         <div class="hero-mine-title" > 
         <h1 class="hero-title title" >ice cream <br>
         made with <br>
@@ -25,32 +55,28 @@
             </li>
             <li class="hero__item hero__item--secondary">
                 <a class="hero__link link" href="#about">How it’s made?</a>
-            </li>
-            
+            </li> 
         </ul>
         </div>
 
-        <div class="hero-uppertitle-title">
-            <img class="hero__pic" src="./images/hero/img-1_lg.png" alt="a jug of milk">
+        <div class="hero-upper-title">
         <p class="hero__uppertitle uppertitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-        
         <button class="hero__btn" type="button"></button>
         </div>
 
-       
-
-        <div class="hero-right-side" > 
-
         <ul class="hero-images list">
             <li class="hero-images__group">
-                <img class="hero-images__first" src="./images/hero/img-2_lg.png" alt="an ice cream cone">
+                <img class="hero-images__first" src="./images/hero/img-1_lg.png" alt="a jug of milk">
             </li>
-            <li>
-                <img class="hero-images__second" src="./images/hero/img-3_lg.png" alt="soooooo tasty">
+            <li class="hero-images__group">
+                <img class="hero-images__second" src="./images/hero/img-2_lg.png" alt="an ice cream cone">
+            </li>
+            <li class="hero-images__group">
+                <img class="hero-images__third" src="./images/hero/img-3_lg.png" alt="soooooo tasty">
             </li>
         </ul>
 
-        <ul class="hero-benefits__list list" >
+        <ul class="hero-benefits list" >
             <li class="hero-benefits__item">
                 <p class="hero-benefits__amount">16</p>
                 <p class="hero-benefits__descr">cafes</p>
@@ -60,7 +86,7 @@
                 <p class="hero-benefits__descr">food trucks</p>
             </li>
         </ul>
-        </div>
+        
         </div>
 
     </section>

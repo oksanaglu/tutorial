@@ -1,31 +1,27 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .container {
   padding-left: 19px;
   padding-right: 19px;
   margin-left: auto;
   margin-right: auto;
-}
-@media screen and (min-width: 320px) {
-  .container {
-    padding-top: 92px;
-    max-width: 320px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .container {
-    padding-top: 80px;
-    padding-left: 32px;
-    padding-right: 32px;
-    max-width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    padding-top: 35px;
-    padding-left: 16px;
-    padding-right: 16px;
-    max-width: 1200px;
-    height: 664px;
-  }
 }
 
 .title {
@@ -43,11 +39,58 @@
   padding: 0;
 }
 
-.hero-container {
+.nav__link {
+  padding-top: 52px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+
+.nav__link--current {
+  color: #D41443;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header {
   background-color: #FFB8CA;
 }
 
+.btn {
+  padding-left: 37px;
+  width: 159px;
+  height: 44px;
+  text-transform: uppercase;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #D41443;
+  background-color: #FFFFFF;
+  border-radius: 22px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .hero-title {
+  margin-top: 60px;
   font-family: "Titan One";
   font-weight: 400;
   font-size: 38px;
@@ -55,13 +98,6 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #FFFFFF;
-}
-
-.hero__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 0;
 }
 
 .hero-title__secondary {
@@ -128,18 +164,30 @@
   color: #FFFFFF;
 }
 
-.hero-uppertitle-title {
+.hero-benefits__amount {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 53px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #D41443;
+}
+
+.hero-benefits__descr {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.hero-container {
-  position: relative;
-}
-
-.hero-images__second {
-  position: absolute;
-  right: 10px;
-  bottom: 50px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
